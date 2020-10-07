@@ -116,16 +116,16 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <div id="navbar__top">
-            <img src="/images/logo.png" alt="" />
+            <img src="./images/logo.png" alt="" />
             <div className="navbar__socialicon">
               <a href="#">
-                <img src="/images/insta.png" alt="" width="35" />
+                <img src="./images/insta.png" alt="" width="35" />
               </a>
               <a href="#">
-                <img src="/images/twitter.png" alt="" width="35" />
+                <img src="./images/twitter.png" alt="" width="35" />
               </a>
               <a href="#">
-                <img src="/images/fb.png" alt="" width="35" />
+                <img src="./images/fb.png" alt="" width="35" />
               </a>
             </div>
           </div>
@@ -157,25 +157,25 @@ export default function MiniDrawer() {
         <List className="list__drawer">
           <ListItem button>
             <ListItemIcon>
-              <img src="/images/home__icon.png" alt="" width="25" />
+              <img src="./images/home__icon.png" alt="" width="25" />
             </ListItemIcon>
             <ListItemText>Home</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="/images/piechart__icon.png" alt="" width="25" />
+              <img src="./images/piechart__icon.png" alt="" width="25" />
             </ListItemIcon>
             <ListItemText>Clubs & Events</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="/images/user__icon.png" alt="" width="25" />
+              <img src="./images/user__icon.png" alt="" width="25" />
             </ListItemIcon>
             <ListItemText>User</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="/images/faq__icon.png" alt="" width="25" />
+              <img src="./images/faq__icon.png" alt="" width="25" />
             </ListItemIcon>
             <ListItemText>FAQ's</ListItemText>
           </ListItem>

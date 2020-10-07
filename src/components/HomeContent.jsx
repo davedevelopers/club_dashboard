@@ -73,7 +73,7 @@ function HomeContent() {
           </Grid>
         </Grid>
         <Grid item md={4} className="home__content__image">
-          <img src="/images/home__image.png" alt="" />
+          <img src="./images/home__image.png" alt="" />
         </Grid>
       </Grid>
       <Grid container spacing={0}>
