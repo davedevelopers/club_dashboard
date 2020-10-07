@@ -175,7 +175,7 @@ export default function MiniDrawer() {
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="./images/faq__icon.png" alt="" width="25" />
+              <img src="./images/faq__icon.png" alt="faq" width="25" />
             </ListItemIcon>
             <ListItemText>FAQ's</ListItemText>
           </ListItem>
