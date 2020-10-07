@@ -1,0 +1,35 @@
+#navbar__appbar__bgcolor {
+  background: #f2f5fa;
+}
+#navbar__top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar__top > img {
+  width: 170px;
+}
+.navbar__socialicon {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 2.5rem;
+}
+.list__drawer {
+  padding-top: 90px !important;
+}
+.list__drawer > div {
+  margin: 20px 0px;
+  text-align: center;
+}
+@media (min-width: 750px) {
+  .navbar__socialicon {
+    width: 200px;
+  }
+  #navbar__top > img {
+    width: 190px;
+  }
+}
