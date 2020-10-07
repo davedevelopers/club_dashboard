@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/club_dashboard/static/css/main.9b554c93.chunk.css",
+    "main.js": "/club_dashboard/static/js/main.c0f2c8a9.chunk.js",
+    "main.js.map": "/club_dashboard/static/js/main.c0f2c8a9.chunk.js.map",
+    "runtime-main.js": "/club_dashboard/static/js/runtime-main.0bf8c916.js",
+    "runtime-main.js.map": "/club_dashboard/static/js/runtime-main.0bf8c916.js.map",
+    "static/js/2.54a407a3.chunk.js": "/club_dashboard/static/js/2.54a407a3.chunk.js",
+    "static/js/2.54a407a3.chunk.js.map": "/club_dashboard/static/js/2.54a407a3.chunk.js.map",
+    "index.html": "/club_dashboard/index.html",
+    "precache-manifest.32a6a3b0da3e526272c43b570191ef9b.js": "/club_dashboard/precache-manifest.32a6a3b0da3e526272c43b570191ef9b.js",
+    "service-worker.js": "/club_dashboard/service-worker.js",
+    "static/css/main.9b554c93.chunk.css.map": "/club_dashboard/static/css/main.9b554c93.chunk.css.map",
+    "static/js/2.54a407a3.chunk.js.LICENSE.txt": "/club_dashboard/static/js/2.54a407a3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bf8c916.js",
+    "static/js/2.54a407a3.chunk.js",
+    "static/css/main.9b554c93.chunk.css",
+    "static/js/main.c0f2c8a9.chunk.js"
+  ]
+}
