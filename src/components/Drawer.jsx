@@ -16,6 +16,14 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 
 import "./Drawer.css";
+import home from "../images/home__icon.png";
+import piechart from "../images/piechart__icon.png";
+import user from "../images/user__icon.png";
+import faq from "../images/faq__icon.png";
+import insta from "../images/insta.png";
+import fb from "../images/fb.png";
+import twitter from "../images/twitter.png";
+import logo from "../images/logo.png";
 
 const drawerWidth = 240;
 
@@ -116,16 +124,16 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <div id="navbar__top">
-            <img src="./images/logo.png" alt="" />
+            <img src={logo} alt="" />
             <div className="navbar__socialicon">
               <a href="#">
-                <img src="./images/insta.png" alt="" width="35" />
+                <img src={insta} alt="" width="35" />
               </a>
               <a href="#">
-                <img src="./images/twitter.png" alt="" width="35" />
+                <img src={twitter} alt="" width="35" />
               </a>
               <a href="#">
-                <img src="./images/fb.png" alt="" width="35" />
+                <img src={fb} alt="" width="35" />
               </a>
             </div>
           </div>
@@ -157,25 +165,25 @@ export default function MiniDrawer() {
         <List className="list__drawer">
           <ListItem button>
             <ListItemIcon>
-              <img src="./images/home__icon.png" alt="" width="25" />
+              <img src={home} alt="" width="25" />
             </ListItemIcon>
             <ListItemText>Home</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="./images/piechart__icon.png" alt="" width="25" />
+              <img src={piechart} alt="" width="25" />
             </ListItemIcon>
             <ListItemText>Clubs & Events</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="./images/user__icon.png" alt="" width="25" />
+              <img src={user} alt="" width="25" />
             </ListItemIcon>
             <ListItemText>User</ListItemText>
           </ListItem>
           <ListItem button>
             <ListItemIcon>
-              <img src="./images/faq__icon.png" alt="faq" width="25" />
+              <img src={faq} alt="faq" width="25" />
             </ListItemIcon>
             <ListItemText>FAQ's</ListItemText>
           </ListItem>

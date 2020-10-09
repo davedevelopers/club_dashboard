@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Grid, Paper } from "@material-ui/core";
 
 import "./HomeContent.css";
+import homeimage from "../images/home__image.png";
 import HomeClubList from "./HomeClubList";
 
 function HomeContent() {
@@ -73,7 +74,7 @@ function HomeContent() {
           </Grid>
         </Grid>
         <Grid item md={4} className="home__content__image">
-          <img src="./images/home__image.png" alt="" />
+          <img src={homeimage} alt="" />
         </Grid>
       </Grid>
       <Grid container spacing={0}>
