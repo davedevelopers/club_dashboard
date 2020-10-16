@@ -23,7 +23,6 @@ function App() {
               <Home />
             </Route>
             <Route path="/:clubname/memberlist" exact render = {routerProps => Team_Page(routerProps)}>
-           
             </Route>
             <Redirect to="/" />
           </Switch>
